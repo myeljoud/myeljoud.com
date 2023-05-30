@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+.husky/_
 
 # testing
 /coverage
@@ -25,7 +26,13 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+!.env.example
+!.env.appStore.example
 
 # vercel
 .vercel
@@ -33,3 +40,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Linting
+lint-results
