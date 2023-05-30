@@ -1,7 +1,7 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'mdeljoud',
+  title: 'Mohamed Yahye El Joud | myeljoud',
   description: '',
 }
 
