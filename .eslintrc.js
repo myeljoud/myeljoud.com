@@ -1,7 +1,7 @@
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
   root: true,
-  extends: ["next/core-web-vitals", "plugin:prettier/recommended"],
+  extends: ["next", "next/core-web-vitals", "plugin:prettier/recommended"],
   plugins: ["unused-imports"],
   parserOptions: {
     tsconfigRootDir: __dirname,

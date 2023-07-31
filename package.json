@@ -15,6 +15,7 @@
     "lint": "eslint . --ignore-path .gitignore",
     "lint:fix": "eslint . --ext .ts,.js,.tsx,.jsx --fix",
     "lint:report": "eslint . --format json --output-file ./lint-results/web.json",
+    "format": "prettier './**/*.{css,js,mdx}' --write",
     "check-changed-files": "ts-node scripts/ts-check-changed-files.ts"
   },
   "dependencies": {

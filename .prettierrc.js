@@ -6,7 +6,7 @@ module.exports = {
   jsxSingleQuote: false,
   trailingComma: "es5",
   semi: true,
-  printWidth: 110,
+  printWidth: 100,
   arrowParens: "always",
   importOrder: ["^@lib/(.*)$", "^@components/(.*)$", "^~/(.*)$", "^[./]"],
   importOrderSeparation: true,
