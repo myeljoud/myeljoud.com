@@ -5,8 +5,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
   theme: {
     extend: {},
+    fontFamily: {
+      default: ["var(--font-inter)", "system-ui", "sans-serif"],
+    },
   },
   plugins: [],
 };

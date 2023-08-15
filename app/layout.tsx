@@ -1,14 +1,19 @@
+import { cn, constructMetadata } from "@/lib/utils";
+import { Inter } from "next/font/google";
+
 import "./globals.css";
 
-export const metadata = {
-  title: "Mohamed Yahye El Joud | myeljoud",
-  description: "",
-};
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+});
+
+export const metadata = constructMetadata();
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={cn("bg-gray-900 text-gray-50", inter.variable)}>{children}</body>
     </html>
   );
 }
