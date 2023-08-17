@@ -13,6 +13,13 @@ module.exports = {
     fontFamily: {
       default: ["var(--font-inter)", "system-ui", "sans-serif"],
     },
+    screens: {
+      tablet: "640px",
+      laptop: "1024px",
+    },
+    container: {
+      center: true,
+    },
   },
   plugins: [],
 };
