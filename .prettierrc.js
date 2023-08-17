@@ -8,7 +8,7 @@ module.exports = {
   semi: true,
   printWidth: 100,
   arrowParens: "always",
-  importOrder: ["^@lib/(.*)$", "^@components/(.*)$", "^~/(.*)$", "^[./]"],
+  importOrder: ["^@/(.*)$", "^~/(.*)$", "^[./]"],
   importOrderSeparation: true,
   plugins: [
     "@trivago/prettier-plugin-sort-imports",

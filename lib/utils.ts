@@ -48,3 +48,7 @@ export function capitalize(str: string) {
   if (!str || typeof str !== "string") return str;
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
+
+export function calculateLogoMaxWidth(w: number, h: number, area: number) {
+  return Math.round(w * Math.sqrt(area / (w * h)));
+}
