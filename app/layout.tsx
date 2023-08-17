@@ -1,5 +1,6 @@
-import { cn, constructMetadata } from "@/lib/utils";
 import { Inter } from "next/font/google";
+
+import { cn, constructMetadata } from "@/lib/utils";
 
 import "./globals.css";
 
